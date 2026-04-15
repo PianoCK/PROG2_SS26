@@ -65,7 +65,6 @@ class Player(Sprite):
 
 
 class Collider():
-
     def collide_with_wall(self, sprite1: Sprite, spritegroup):
         sprite1.rect.x = sprite1.pos.x
         for sprite2 in spritegroup:

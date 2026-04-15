@@ -2,7 +2,6 @@ import pygame as pg
 from settings import *
 vec = pg.math.Vector2
 
-
 class Sprite():
     def __init__(self, image, x, y):
         self.image = pg.image.load(image).convert_alpha()

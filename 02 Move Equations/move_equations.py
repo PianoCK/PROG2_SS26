@@ -13,9 +13,8 @@ GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 
 # Motion variables
-PLAYER_ACC = 0.3 * 60 / FPS
-PLAYER_FRICTION = -0.03
-
+PLAYER_ACC = 0.8 * 60 / FPS
+PLAYER_FRICTION = -0.09
 
 # initialize pg and create window
 pg.init()
